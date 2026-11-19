@@ -1,0 +1,736 @@
+{
+  "version": "1.1.1",
+  "date": "2026-10-03",
+  "platform": "Windows x64",
+  "package": {
+    "file": "BomberStudio_Blender_1.1.1_Universal.zip",
+    "bytes": 232762,
+    "sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+    "kind": "Universal",
+    "layout": "bomberstudio_blender/"
+  },
+  "unit_tests_passed": 48,
+  "install_routes_passed": 8,
+  "updater_checks_passed": 77,
+  "installed_source_checks_passed": 64,
+  "live_github_check": {
+    "repository": "Hoshino486/BomberStudio_Blender",
+    "tag": "BomberStudio_Blender_1.1.0",
+    "current_version": [
+      1,
+      1,
+      1
+    ],
+    "remote_version": [
+      1,
+      1,
+      0
+    ],
+    "relation": "OLDER",
+    "status": "本地 1.1.1 高于已发布 1.1.0，无需降级",
+    "release_url": "https://github.com/Hoshino486/BomberStudio_Blender/releases/latest",
+    "checked": "2026-10-03 22:02:41",
+    "repository_input": "https://github.com/Hoshino486/BomberStudio_Blender"
+  },
+  "extension_validation": [
+    {
+      "blender": "4.5.5",
+      "passed": true
+    },
+    {
+      "blender": "5.2.2",
+      "passed": true
+    }
+  ],
+  "tests": [
+    {
+      "blender": "2.79b",
+      "mode": "Legacy",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "old_blender_core_remains_available",
+          "passed": true
+        },
+        {
+          "name": "modern_provider_never_imported",
+          "passed": true
+        },
+        {
+          "name": "source_version_gate_reports_failure",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "3.2.2",
+      "mode": "Legacy",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "old_blender_core_remains_available",
+          "passed": true
+        },
+        {
+          "name": "modern_provider_never_imported",
+          "passed": true
+        },
+        {
+          "name": "source_version_gate_reports_failure",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.0.2",
+      "mode": "Legacy",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "old_blender_core_remains_available",
+          "passed": true
+        },
+        {
+          "name": "modern_provider_never_imported",
+          "passed": true
+        },
+        {
+          "name": "source_version_gate_reports_failure",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.1.1",
+      "mode": "Legacy",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "bundled_provider_registered",
+          "passed": true
+        },
+        {
+          "name": "updater_routes_to_parent",
+          "passed": true
+        },
+        {
+          "name": "registration_lifecycle",
+          "passed": true
+        },
+        {
+          "name": "smd_mesh_rig_weights_import",
+          "passed": true
+        },
+        {
+          "name": "animation_import_existing_rig",
+          "passed": true
+        },
+        {
+          "name": "smd_vta_export",
+          "passed": true
+        },
+        {
+          "name": "vta_shape_key_import",
+          "passed": true
+        },
+        {
+          "name": "dmx_binary_roundtrip",
+          "passed": true
+        },
+        {
+          "name": "qc_qci_import",
+          "passed": true
+        },
+        {
+          "name": "error_paths",
+          "passed": true
+        },
+        {
+          "name": "partial_registration_rollback",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.5.5",
+      "mode": "Legacy",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        },
+        {
+          "name": "respects_blender_offline_mode",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "bundled_provider_registered",
+          "passed": true
+        },
+        {
+          "name": "updater_routes_to_parent",
+          "passed": true
+        },
+        {
+          "name": "registration_lifecycle",
+          "passed": true
+        },
+        {
+          "name": "smd_mesh_rig_weights_import",
+          "passed": true
+        },
+        {
+          "name": "animation_import_existing_rig",
+          "passed": true
+        },
+        {
+          "name": "smd_vta_export",
+          "passed": true
+        },
+        {
+          "name": "vta_shape_key_import",
+          "passed": true
+        },
+        {
+          "name": "dmx_binary_roundtrip",
+          "passed": true
+        },
+        {
+          "name": "qc_qci_import",
+          "passed": true
+        },
+        {
+          "name": "error_paths",
+          "passed": true
+        },
+        {
+          "name": "partial_registration_rollback",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "5.2.2",
+      "mode": "Legacy",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        },
+        {
+          "name": "respects_blender_offline_mode",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "bundled_provider_registered",
+          "passed": true
+        },
+        {
+          "name": "updater_routes_to_parent",
+          "passed": true
+        },
+        {
+          "name": "registration_lifecycle",
+          "passed": true
+        },
+        {
+          "name": "smd_mesh_rig_weights_import",
+          "passed": true
+        },
+        {
+          "name": "animation_import_existing_rig",
+          "passed": true
+        },
+        {
+          "name": "smd_vta_export",
+          "passed": true
+        },
+        {
+          "name": "vta_shape_key_import",
+          "passed": true
+        },
+        {
+          "name": "dmx_binary_roundtrip",
+          "passed": true
+        },
+        {
+          "name": "qc_qci_import",
+          "passed": true
+        },
+        {
+          "name": "error_paths",
+          "passed": true
+        },
+        {
+          "name": "partial_registration_rollback",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.5.5",
+      "mode": "Extension",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        },
+        {
+          "name": "respects_blender_offline_mode",
+          "passed": true
+        },
+        {
+          "name": "live_github_full_url_check",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "bundled_provider_registered",
+          "passed": true
+        },
+        {
+          "name": "updater_routes_to_parent",
+          "passed": true
+        },
+        {
+          "name": "registration_lifecycle",
+          "passed": true
+        },
+        {
+          "name": "smd_mesh_rig_weights_import",
+          "passed": true
+        },
+        {
+          "name": "animation_import_existing_rig",
+          "passed": true
+        },
+        {
+          "name": "smd_vta_export",
+          "passed": true
+        },
+        {
+          "name": "vta_shape_key_import",
+          "passed": true
+        },
+        {
+          "name": "dmx_binary_roundtrip",
+          "passed": true
+        },
+        {
+          "name": "qc_qci_import",
+          "passed": true
+        },
+        {
+          "name": "error_paths",
+          "passed": true
+        },
+        {
+          "name": "partial_registration_rollback",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "5.2.2",
+      "mode": "Extension",
+      "passed": true,
+      "archive_sha256": "e9c67548d24803293a89b6455f55ae8c429d5b12973e8c6a8227d7d74ab2ac34",
+      "updater_checks": [
+        {
+          "name": "default_repository",
+          "passed": true
+        },
+        {
+          "name": "full_url",
+          "passed": true
+        },
+        {
+          "name": "shorthand",
+          "passed": true
+        },
+        {
+          "name": "empty_saved_setting",
+          "passed": true
+        },
+        {
+          "name": "custom_repository",
+          "passed": true
+        },
+        {
+          "name": "new_release",
+          "passed": true
+        },
+        {
+          "name": "local_ahead",
+          "passed": true
+        },
+        {
+          "name": "unknown_version",
+          "passed": true
+        },
+        {
+          "name": "404_keeps_last_success_receipt",
+          "passed": true
+        },
+        {
+          "name": "respects_blender_offline_mode",
+          "passed": true
+        }
+      ],
+      "source_checks": [
+        {
+          "name": "bundled_provider_registered",
+          "passed": true
+        },
+        {
+          "name": "updater_routes_to_parent",
+          "passed": true
+        },
+        {
+          "name": "registration_lifecycle",
+          "passed": true
+        },
+        {
+          "name": "smd_mesh_rig_weights_import",
+          "passed": true
+        },
+        {
+          "name": "animation_import_existing_rig",
+          "passed": true
+        },
+        {
+          "name": "smd_vta_export",
+          "passed": true
+        },
+        {
+          "name": "vta_shape_key_import",
+          "passed": true
+        },
+        {
+          "name": "dmx_binary_roundtrip",
+          "passed": true
+        },
+        {
+          "name": "qc_qci_import",
+          "passed": true
+        },
+        {
+          "name": "error_paths",
+          "passed": true
+        },
+        {
+          "name": "partial_registration_rollback",
+          "passed": true
+        }
+      ],
+      "ascii_triangle_import": true,
+      "normal_uv": true,
+      "local_update_and_rollback": true,
+      "isolated": true,
+      "preferences_saved": false
+    }
+  ],
+  "scope": [
+    "Live GitHub request ran only in Blender 4.5.5 Extension mode; the other updater cases used bounded offline fixtures.",
+    "1.1.0 complete feature and real-model ASCII regressions are historical evidence, not rerun in this patch.",
+    "No remote push, release publication or replacement of the user-installed plugin was performed."
+  ]
+}

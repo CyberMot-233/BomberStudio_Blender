@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-03",
+  "version": "1.1.0",
+  "platform": "Windows x64",
+  "package": {
+    "file": "BomberStudio_Blender_1.1.0_Universal.zip",
+    "bytes": 226699,
+    "sha256": "07add40c43238b6fe98a836f6a860482a7688dde5cb080e3947c6e8b7ae9e7c9",
+    "kind": "Universal",
+    "layout": "bomberstudio_blender/"
+  },
+  "installation_paths": [
+    {
+      "blender": "2.79b",
+      "mode": "Legacy",
+      "passed": true,
+      "source_checks": 3,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "3.2.2",
+      "mode": "Legacy",
+      "passed": true,
+      "source_checks": 3,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.0.2",
+      "mode": "Legacy",
+      "passed": true,
+      "source_checks": 3,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.1.1",
+      "mode": "Legacy",
+      "passed": true,
+      "source_checks": 11,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.5.5",
+      "mode": "Legacy",
+      "passed": true,
+      "source_checks": 11,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "5.2.2",
+      "mode": "Legacy",
+      "passed": true,
+      "source_checks": 11,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "4.5.5",
+      "mode": "Extension",
+      "passed": true,
+      "source_checks": 11,
+      "isolated": true,
+      "preferences_saved": false
+    },
+    {
+      "blender": "5.2.2",
+      "mode": "Extension",
+      "passed": true,
+      "source_checks": 11,
+      "isolated": true,
+      "preferences_saved": false
+    }
+  ],
+  "source_matrix": [
+    {
+      "blender": "2.79b",
+      "passed": 3,
+      "failed": 0,
+      "checks": [
+        "old_blender_core_remains_available",
+        "modern_provider_never_imported",
+        "source_version_gate_reports_failure"
+      ]
+    },
+    {
+      "blender": "3.2.2",
+      "passed": 3,
+      "failed": 0,
+      "checks": [
+        "old_blender_core_remains_available",
+        "modern_provider_never_imported",
+        "source_version_gate_reports_failure"
+      ]
+    },
+    {
+      "blender": "4.0.2",
+      "passed": 3,
+      "failed": 0,
+      "checks": [
+        "old_blender_core_remains_available",
+        "modern_provider_never_imported",
+        "source_version_gate_reports_failure"
+      ]
+    },
+    {
+      "blender": "4.1.1",
+      "passed": 12,
+      "failed": 0,
+      "checks": [
+        "bundled_provider_registered",
+        "updater_routes_to_parent",
+        "registration_lifecycle",
+        "smd_mesh_rig_weights_import",
+        "animation_import_existing_rig",
+        "smd_vta_export",
+        "vta_shape_key_import",
+        "dmx_binary_roundtrip",
+        "qc_qci_import",
+        "error_paths",
+        "partial_registration_rollback",
+        "standalone_coexistence"
+      ]
+    },
+    {
+      "blender": "4.5.5",
+      "passed": 12,
+      "failed": 0,
+      "checks": [
+        "bundled_provider_registered",
+        "updater_routes_to_parent",
+        "registration_lifecycle",
+        "smd_mesh_rig_weights_import",
+        "animation_import_existing_rig",
+        "smd_vta_export",
+        "vta_shape_key_import",
+        "dmx_binary_roundtrip",
+        "qc_qci_import",
+        "error_paths",
+        "partial_registration_rollback",
+        "standalone_coexistence"
+      ]
+    },
+    {
+      "blender": "5.2.2",
+      "passed": 12,
+      "failed": 0,
+      "checks": [
+        "bundled_provider_registered",
+        "updater_routes_to_parent",
+        "registration_lifecycle",
+        "smd_mesh_rig_weights_import",
+        "animation_import_existing_rig",
+        "smd_vta_export",
+        "vta_shape_key_import",
+        "dmx_binary_roundtrip",
+        "qc_qci_import",
+        "error_paths",
+        "partial_registration_rollback",
+        "standalone_coexistence"
+      ]
+    }
+  ],
+  "feature_matrix": [
+    {
+      "blender": "2.79b",
+      "passed": 25,
+      "failed": 0
+    },
+    {
+      "blender": "3.2.2",
+      "passed": 25,
+      "failed": 0
+    },
+    {
+      "blender": "4.0.2",
+      "passed": 25,
+      "failed": 0
+    },
+    {
+      "blender": "4.1.1",
+      "passed": 25,
+      "failed": 0
+    },
+    {
+      "blender": "4.5.5",
+      "passed": 25,
+      "failed": 0
+    },
+    {
+      "blender": "5.2.2",
+      "passed": 25,
+      "failed": 0
+    }
+  ],
+  "ascii_matrix": [
+    {
+      "blender": "2.79b",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "blender": "3.2.2",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "blender": "4.0.2",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "blender": "4.1.1",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "blender": "4.5.5",
+      "passed": 4,
+      "failed": 0
+    },
+    {
+      "blender": "5.2.2",
+      "passed": 4,
+      "failed": 0
+    }
+  ],
+  "python_unit_tests": {
+    "passed": 32,
+    "failed": 0
+  },
+  "extension_validation": [
+    {
+      "blender": "4.5.5",
+      "passed": true
+    },
+    {
+      "blender": "5.2.2",
+      "passed": true
+    }
+  ],
+  "not_tested": [
+    "macOS/Linux",
+    "unlisted Blender versions",
+    "game SDK / studiomdl compilation",
+    "all DMX format combinations",
+    "manual UI testing on every Blender version"
+  ]
+}

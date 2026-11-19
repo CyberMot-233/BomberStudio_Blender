@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+临时文件夹/
+输出/
+GitHub发布/
+*.blend
+*.blend[0-9]
+*.fbx
+*.pc2
+*.log
+*.pending
+*.part
+*.bak-*
+.DS_Store
+Thumbs.db
+GitHub发布_*/

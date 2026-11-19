@@ -1,0 +1,2590 @@
+{
+  "version": "1.2.0",
+  "local_verification_time": "2026-10-04 01:31:59 +0800",
+  "platform": "Windows x64",
+  "package": {
+    "file": "BomberStudio_Blender_1.2.0_Universal.zip",
+    "bytes": 244841,
+    "sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+    "kind": "Universal",
+    "layout": "bomberstudio_blender/"
+  },
+  "passed": true,
+  "summary": {
+    "python_unit_tests": 85,
+    "installation_routes": 8,
+    "online_install_checks": 96,
+    "existing_update_checks": 77,
+    "source_integration_checks": 64,
+    "existing_feature_checks": 150,
+    "gui_event_loop_checks": 6,
+    "extension_validators": 2
+  },
+  "scope": {
+    "active_user_install_modified": false,
+    "github_release_published": false,
+    "model_uploads": false,
+    "network_install_simulation": "Fixture HTTPS payloads with real operators and filesystem transactions",
+    "live_network": "Actual public GitHub Release query, asset download, SHA256 and ZIP validation; no installation",
+    "restart": "Separate isolated Blender process loaded fixture 1.2.1; not a published release",
+    "functional_matrix": "Source matches ZIP; manifest description was shortened after these unchanged Python checks"
+  },
+  "install_matrix": {
+    "version": "1.2.0",
+    "archive": "BomberStudio_Blender_1.2.0_Universal.zip",
+    "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+    "passed": 8,
+    "failed": 0,
+    "tests": [
+      {
+        "version": "2.79b",
+        "mode": "Legacy",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "local_update_and_rollback": true,
+          "normal_uv": true,
+          "isolated": true,
+          "mode": "Legacy",
+          "source_tests": [
+            {
+              "detail": null,
+              "passed": true,
+              "name": "old_blender_core_remains_available"
+            },
+            {
+              "detail": null,
+              "passed": true,
+              "name": "modern_provider_never_imported"
+            },
+            {
+              "detail": null,
+              "passed": true,
+              "name": "source_version_gate_reports_failure"
+            }
+          ],
+          "portable_default_path": true,
+          "disable_reenable": true,
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-2.79b-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+          "blender": "2.79 (sub 0)",
+          "ascii_triangle_import": true,
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "update_tests": {
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-2.79b-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+            "live": false,
+            "blender": "2.79 (sub 0)",
+            "checks": [
+              {
+                "passed": true,
+                "name": "default_repository"
+              },
+              {
+                "passed": true,
+                "name": "full_url"
+              },
+              {
+                "passed": true,
+                "name": "shorthand"
+              },
+              {
+                "passed": true,
+                "name": "empty_saved_setting"
+              },
+              {
+                "passed": true,
+                "name": "custom_repository"
+              },
+              {
+                "passed": true,
+                "name": "new_release"
+              },
+              {
+                "passed": true,
+                "name": "local_ahead"
+              },
+              {
+                "passed": true,
+                "name": "unknown_version"
+              },
+              {
+                "passed": true,
+                "name": "404_keeps_last_success_receipt"
+              }
+            ],
+            "live_record": null,
+            "passed": true,
+            "module": "bomberstudio_blender"
+          },
+          "preferences_saved": false,
+          "passed": true,
+          "online_install_tests": {
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "source_restored": true,
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-2.79b-legacy\\scripts\\addons\\bomberstudio_blender",
+            "checks": [
+              {
+                "passed": true,
+                "name": "cancel_confirmation_before_worker_is_created"
+              },
+              {
+                "passed": true,
+                "name": "idle_check_button"
+              },
+              {
+                "passed": true,
+                "name": "new_version_enables_install_button"
+              },
+              {
+                "passed": true,
+                "name": "manual_check_does_not_download"
+              },
+              {
+                "passed": true,
+                "name": "changed_repository_invalidates_target"
+              },
+              {
+                "passed": true,
+                "name": "stale_check_requires_refresh"
+              },
+              {
+                "passed": true,
+                "name": "hash_failure_leaves_installed_files_unchanged"
+              },
+              {
+                "passed": true,
+                "name": "operator_download_validate_backup_and_install"
+              },
+              {
+                "passed": true,
+                "name": "red_restart_banner_and_no_hot_reload"
+              },
+              {
+                "passed": true,
+                "name": "one_click_rollback_restores_original"
+              },
+              {
+                "passed": true,
+                "name": "no_asset_disables_install"
+              },
+              {
+                "passed": true,
+                "name": "download_progress_and_cancel_layout"
+              }
+            ],
+            "network": "in-memory HTTPS responses",
+            "passed": true,
+            "download_calls": 2,
+            "candidate_version": [
+              1,
+              2,
+              1
+            ]
+          }
+        },
+        "passed": true,
+        "seconds": 3.455,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-2.79b-legacy\\install.log"
+      },
+      {
+        "version": "3.2.2",
+        "mode": "Legacy",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "passed": true,
+          "blender": "3.2.2",
+          "mode": "Legacy",
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-3.2.2-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "isolated": true,
+          "preferences_saved": false,
+          "ascii_triangle_import": true,
+          "normal_uv": true,
+          "portable_default_path": true,
+          "local_update_and_rollback": true,
+          "disable_reenable": true,
+          "source_tests": [
+            {
+              "name": "old_blender_core_remains_available",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "modern_provider_never_imported",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "source_version_gate_reports_failure",
+              "passed": true,
+              "detail": null
+            }
+          ],
+          "update_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "default_repository",
+                "passed": true
+              },
+              {
+                "name": "full_url",
+                "passed": true
+              },
+              {
+                "name": "shorthand",
+                "passed": true
+              },
+              {
+                "name": "empty_saved_setting",
+                "passed": true
+              },
+              {
+                "name": "custom_repository",
+                "passed": true
+              },
+              {
+                "name": "new_release",
+                "passed": true
+              },
+              {
+                "name": "local_ahead",
+                "passed": true
+              },
+              {
+                "name": "unknown_version",
+                "passed": true
+              },
+              {
+                "name": "404_keeps_last_success_receipt",
+                "passed": true
+              }
+            ],
+            "live": false,
+            "live_record": null,
+            "module": "bomberstudio_blender",
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-3.2.2-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+            "blender": "3.2.2"
+          },
+          "online_install_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "cancel_confirmation_before_worker_is_created",
+                "passed": true
+              },
+              {
+                "name": "idle_check_button",
+                "passed": true
+              },
+              {
+                "name": "new_version_enables_install_button",
+                "passed": true
+              },
+              {
+                "name": "manual_check_does_not_download",
+                "passed": true
+              },
+              {
+                "name": "changed_repository_invalidates_target",
+                "passed": true
+              },
+              {
+                "name": "stale_check_requires_refresh",
+                "passed": true
+              },
+              {
+                "name": "hash_failure_leaves_installed_files_unchanged",
+                "passed": true
+              },
+              {
+                "name": "operator_download_validate_backup_and_install",
+                "passed": true
+              },
+              {
+                "name": "red_restart_banner_and_no_hot_reload",
+                "passed": true
+              },
+              {
+                "name": "one_click_rollback_restores_original",
+                "passed": true
+              },
+              {
+                "name": "no_asset_disables_install",
+                "passed": true
+              },
+              {
+                "name": "download_progress_and_cancel_layout",
+                "passed": true
+              }
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-3.2.2-legacy\\scripts\\addons\\bomberstudio_blender",
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "candidate_version": [
+              1,
+              2,
+              1
+            ],
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "source_restored": true,
+            "download_calls": 2,
+            "network": "in-memory HTTPS responses"
+          }
+        },
+        "passed": true,
+        "seconds": 2.763,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-3.2.2-legacy\\install.log"
+      },
+      {
+        "version": "4.0.2",
+        "mode": "Legacy",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "passed": true,
+          "blender": "4.0.2",
+          "mode": "Legacy",
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.0.2-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "isolated": true,
+          "preferences_saved": false,
+          "ascii_triangle_import": true,
+          "normal_uv": true,
+          "portable_default_path": true,
+          "local_update_and_rollback": true,
+          "disable_reenable": true,
+          "source_tests": [
+            {
+              "name": "old_blender_core_remains_available",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "modern_provider_never_imported",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "source_version_gate_reports_failure",
+              "passed": true,
+              "detail": null
+            }
+          ],
+          "update_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "default_repository",
+                "passed": true
+              },
+              {
+                "name": "full_url",
+                "passed": true
+              },
+              {
+                "name": "shorthand",
+                "passed": true
+              },
+              {
+                "name": "empty_saved_setting",
+                "passed": true
+              },
+              {
+                "name": "custom_repository",
+                "passed": true
+              },
+              {
+                "name": "new_release",
+                "passed": true
+              },
+              {
+                "name": "local_ahead",
+                "passed": true
+              },
+              {
+                "name": "unknown_version",
+                "passed": true
+              },
+              {
+                "name": "404_keeps_last_success_receipt",
+                "passed": true
+              }
+            ],
+            "live": false,
+            "live_record": null,
+            "module": "bomberstudio_blender",
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.0.2-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+            "blender": "4.0.2"
+          },
+          "online_install_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "cancel_confirmation_before_worker_is_created",
+                "passed": true
+              },
+              {
+                "name": "idle_check_button",
+                "passed": true
+              },
+              {
+                "name": "new_version_enables_install_button",
+                "passed": true
+              },
+              {
+                "name": "manual_check_does_not_download",
+                "passed": true
+              },
+              {
+                "name": "changed_repository_invalidates_target",
+                "passed": true
+              },
+              {
+                "name": "stale_check_requires_refresh",
+                "passed": true
+              },
+              {
+                "name": "hash_failure_leaves_installed_files_unchanged",
+                "passed": true
+              },
+              {
+                "name": "operator_download_validate_backup_and_install",
+                "passed": true
+              },
+              {
+                "name": "red_restart_banner_and_no_hot_reload",
+                "passed": true
+              },
+              {
+                "name": "one_click_rollback_restores_original",
+                "passed": true
+              },
+              {
+                "name": "no_asset_disables_install",
+                "passed": true
+              },
+              {
+                "name": "download_progress_and_cancel_layout",
+                "passed": true
+              }
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.0.2-legacy\\scripts\\addons\\bomberstudio_blender",
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "candidate_version": [
+              1,
+              2,
+              1
+            ],
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "source_restored": true,
+            "download_calls": 2,
+            "network": "in-memory HTTPS responses"
+          }
+        },
+        "passed": true,
+        "seconds": 2.98,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.0.2-legacy\\install.log"
+      },
+      {
+        "version": "4.1.1",
+        "mode": "Legacy",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "passed": true,
+          "blender": "4.1.1",
+          "mode": "Legacy",
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.1.1-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "isolated": true,
+          "preferences_saved": false,
+          "ascii_triangle_import": true,
+          "normal_uv": true,
+          "portable_default_path": true,
+          "local_update_and_rollback": true,
+          "disable_reenable": true,
+          "source_tests": [
+            {
+              "name": "bundled_provider_registered",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "updater_routes_to_parent",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "registration_lifecycle",
+              "passed": true,
+              "detail": "3 enable/disable cycles; no leaked handlers, RNA classes or vertex-map operators"
+            },
+            {
+              "name": "smd_mesh_rig_weights_import",
+              "passed": true,
+              "detail": "Triangle, UV, material, root bone, weights, three vertex-map create/remove cycles"
+            },
+            {
+              "name": "animation_import_existing_rig",
+              "passed": true,
+              "detail": "Animation appended without requiring a new mesh"
+            },
+            {
+              "name": "smd_vta_export",
+              "passed": true,
+              "detail": {
+                "smd": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.1.1-legacy\\source-fixtures\\smd-out\\triangle.smd",
+                "vta": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.1.1-legacy\\source-fixtures\\smd-out\\triangle.vta"
+              }
+            },
+            {
+              "name": "vta_shape_key_import",
+              "passed": true,
+              "detail": [
+                "Basis",
+                "smile"
+              ]
+            },
+            {
+              "name": "dmx_binary_roundtrip",
+              "passed": true,
+              "detail": "Binary DMX 5/model18: mesh, rig, weights, smile shape"
+            },
+            {
+              "name": "qc_qci_import",
+              "passed": true,
+              "detail": "QC + QCI + referenced SMD + idle animation; no external compiler invoked"
+            },
+            {
+              "name": "error_paths",
+              "passed": true,
+              "detail": "Missing file, missing output directory, malformed DMX; preferences restored"
+            },
+            {
+              "name": "partial_registration_rollback",
+              "passed": true,
+              "detail": "Partial register failure rolls back only owned classes"
+            }
+          ],
+          "update_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "default_repository",
+                "passed": true
+              },
+              {
+                "name": "full_url",
+                "passed": true
+              },
+              {
+                "name": "shorthand",
+                "passed": true
+              },
+              {
+                "name": "empty_saved_setting",
+                "passed": true
+              },
+              {
+                "name": "custom_repository",
+                "passed": true
+              },
+              {
+                "name": "new_release",
+                "passed": true
+              },
+              {
+                "name": "local_ahead",
+                "passed": true
+              },
+              {
+                "name": "unknown_version",
+                "passed": true
+              },
+              {
+                "name": "404_keeps_last_success_receipt",
+                "passed": true
+              }
+            ],
+            "live": false,
+            "live_record": null,
+            "module": "bomberstudio_blender",
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.1.1-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+            "blender": "4.1.1"
+          },
+          "online_install_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "cancel_confirmation_before_worker_is_created",
+                "passed": true
+              },
+              {
+                "name": "idle_check_button",
+                "passed": true
+              },
+              {
+                "name": "new_version_enables_install_button",
+                "passed": true
+              },
+              {
+                "name": "manual_check_does_not_download",
+                "passed": true
+              },
+              {
+                "name": "changed_repository_invalidates_target",
+                "passed": true
+              },
+              {
+                "name": "stale_check_requires_refresh",
+                "passed": true
+              },
+              {
+                "name": "hash_failure_leaves_installed_files_unchanged",
+                "passed": true
+              },
+              {
+                "name": "operator_download_validate_backup_and_install",
+                "passed": true
+              },
+              {
+                "name": "red_restart_banner_and_no_hot_reload",
+                "passed": true
+              },
+              {
+                "name": "one_click_rollback_restores_original",
+                "passed": true
+              },
+              {
+                "name": "no_asset_disables_install",
+                "passed": true
+              },
+              {
+                "name": "download_progress_and_cancel_layout",
+                "passed": true
+              }
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.1.1-legacy\\scripts\\addons\\bomberstudio_blender",
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "candidate_version": [
+              1,
+              2,
+              1
+            ],
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "source_restored": true,
+            "download_calls": 2,
+            "network": "in-memory HTTPS responses"
+          }
+        },
+        "passed": true,
+        "seconds": 5.072,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.1.1-legacy\\install.log"
+      },
+      {
+        "version": "4.5.5",
+        "mode": "Legacy",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "passed": true,
+          "blender": "4.5.5 LTS",
+          "mode": "Legacy",
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "isolated": true,
+          "preferences_saved": false,
+          "ascii_triangle_import": true,
+          "normal_uv": true,
+          "portable_default_path": true,
+          "local_update_and_rollback": true,
+          "disable_reenable": true,
+          "source_tests": [
+            {
+              "name": "bundled_provider_registered",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "updater_routes_to_parent",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "registration_lifecycle",
+              "passed": true,
+              "detail": "3 enable/disable cycles; no leaked handlers, RNA classes or vertex-map operators"
+            },
+            {
+              "name": "smd_mesh_rig_weights_import",
+              "passed": true,
+              "detail": "Triangle, UV, material, root bone, weights, three vertex-map create/remove cycles"
+            },
+            {
+              "name": "animation_import_existing_rig",
+              "passed": true,
+              "detail": "Animation appended without requiring a new mesh"
+            },
+            {
+              "name": "smd_vta_export",
+              "passed": true,
+              "detail": {
+                "smd": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-legacy\\source-fixtures\\smd-out\\triangle.smd",
+                "vta": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-legacy\\source-fixtures\\smd-out\\triangle.vta"
+              }
+            },
+            {
+              "name": "vta_shape_key_import",
+              "passed": true,
+              "detail": [
+                "Basis",
+                "smile"
+              ]
+            },
+            {
+              "name": "dmx_binary_roundtrip",
+              "passed": true,
+              "detail": "Binary DMX 5/model18: mesh, rig, weights, smile shape"
+            },
+            {
+              "name": "qc_qci_import",
+              "passed": true,
+              "detail": "QC + QCI + referenced SMD + idle animation; no external compiler invoked"
+            },
+            {
+              "name": "error_paths",
+              "passed": true,
+              "detail": "Missing file, missing output directory, malformed DMX; preferences restored"
+            },
+            {
+              "name": "partial_registration_rollback",
+              "passed": true,
+              "detail": "Partial register failure rolls back only owned classes"
+            }
+          ],
+          "update_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "default_repository",
+                "passed": true
+              },
+              {
+                "name": "full_url",
+                "passed": true
+              },
+              {
+                "name": "shorthand",
+                "passed": true
+              },
+              {
+                "name": "empty_saved_setting",
+                "passed": true
+              },
+              {
+                "name": "custom_repository",
+                "passed": true
+              },
+              {
+                "name": "new_release",
+                "passed": true
+              },
+              {
+                "name": "local_ahead",
+                "passed": true
+              },
+              {
+                "name": "unknown_version",
+                "passed": true
+              },
+              {
+                "name": "404_keeps_last_success_receipt",
+                "passed": true
+              },
+              {
+                "name": "respects_blender_offline_mode",
+                "passed": true
+              }
+            ],
+            "live": false,
+            "live_record": null,
+            "module": "bomberstudio_blender",
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+            "blender": "4.5.5 LTS"
+          },
+          "online_install_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "cancel_confirmation_before_worker_is_created",
+                "passed": true
+              },
+              {
+                "name": "idle_check_button",
+                "passed": true
+              },
+              {
+                "name": "new_version_enables_install_button",
+                "passed": true
+              },
+              {
+                "name": "manual_check_does_not_download",
+                "passed": true
+              },
+              {
+                "name": "changed_repository_invalidates_target",
+                "passed": true
+              },
+              {
+                "name": "stale_check_requires_refresh",
+                "passed": true
+              },
+              {
+                "name": "hash_failure_leaves_installed_files_unchanged",
+                "passed": true
+              },
+              {
+                "name": "operator_download_validate_backup_and_install",
+                "passed": true
+              },
+              {
+                "name": "red_restart_banner_and_no_hot_reload",
+                "passed": true
+              },
+              {
+                "name": "one_click_rollback_restores_original",
+                "passed": true
+              },
+              {
+                "name": "no_asset_disables_install",
+                "passed": true
+              },
+              {
+                "name": "download_progress_and_cancel_layout",
+                "passed": true
+              }
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-legacy\\scripts\\addons\\bomberstudio_blender",
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "candidate_version": [
+              1,
+              2,
+              1
+            ],
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "source_restored": true,
+            "download_calls": 2,
+            "network": "in-memory HTTPS responses"
+          }
+        },
+        "passed": true,
+        "seconds": 2.974,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-legacy\\install.log"
+      },
+      {
+        "version": "5.2.2",
+        "mode": "Legacy",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "passed": true,
+          "blender": "5.2.2 LTS",
+          "mode": "Legacy",
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "isolated": true,
+          "preferences_saved": false,
+          "ascii_triangle_import": true,
+          "normal_uv": true,
+          "portable_default_path": true,
+          "local_update_and_rollback": true,
+          "disable_reenable": true,
+          "source_tests": [
+            {
+              "name": "bundled_provider_registered",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "updater_routes_to_parent",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "registration_lifecycle",
+              "passed": true,
+              "detail": "3 enable/disable cycles; no leaked handlers, RNA classes or vertex-map operators"
+            },
+            {
+              "name": "smd_mesh_rig_weights_import",
+              "passed": true,
+              "detail": "Triangle, UV, material, root bone, weights, three vertex-map create/remove cycles"
+            },
+            {
+              "name": "animation_import_existing_rig",
+              "passed": true,
+              "detail": "Animation appended without requiring a new mesh"
+            },
+            {
+              "name": "smd_vta_export",
+              "passed": true,
+              "detail": {
+                "smd": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-legacy\\source-fixtures\\smd-out\\triangle.smd",
+                "vta": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-legacy\\source-fixtures\\smd-out\\triangle.vta"
+              }
+            },
+            {
+              "name": "vta_shape_key_import",
+              "passed": true,
+              "detail": [
+                "Basis",
+                "smile"
+              ]
+            },
+            {
+              "name": "dmx_binary_roundtrip",
+              "passed": true,
+              "detail": "Binary DMX 5/model18: mesh, rig, weights, smile shape"
+            },
+            {
+              "name": "qc_qci_import",
+              "passed": true,
+              "detail": "QC + QCI + referenced SMD + idle animation; no external compiler invoked"
+            },
+            {
+              "name": "error_paths",
+              "passed": true,
+              "detail": "Missing file, missing output directory, malformed DMX; preferences restored"
+            },
+            {
+              "name": "partial_registration_rollback",
+              "passed": true,
+              "detail": "Partial register failure rolls back only owned classes"
+            }
+          ],
+          "update_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "default_repository",
+                "passed": true
+              },
+              {
+                "name": "full_url",
+                "passed": true
+              },
+              {
+                "name": "shorthand",
+                "passed": true
+              },
+              {
+                "name": "empty_saved_setting",
+                "passed": true
+              },
+              {
+                "name": "custom_repository",
+                "passed": true
+              },
+              {
+                "name": "new_release",
+                "passed": true
+              },
+              {
+                "name": "local_ahead",
+                "passed": true
+              },
+              {
+                "name": "unknown_version",
+                "passed": true
+              },
+              {
+                "name": "404_keeps_last_success_receipt",
+                "passed": true
+              },
+              {
+                "name": "respects_blender_offline_mode",
+                "passed": true
+              }
+            ],
+            "live": false,
+            "live_record": null,
+            "module": "bomberstudio_blender",
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-legacy\\scripts\\addons\\bomberstudio_blender\\__init__.py",
+            "blender": "5.2.2 LTS"
+          },
+          "online_install_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "cancel_confirmation_before_worker_is_created",
+                "passed": true
+              },
+              {
+                "name": "idle_check_button",
+                "passed": true
+              },
+              {
+                "name": "new_version_enables_install_button",
+                "passed": true
+              },
+              {
+                "name": "manual_check_does_not_download",
+                "passed": true
+              },
+              {
+                "name": "changed_repository_invalidates_target",
+                "passed": true
+              },
+              {
+                "name": "stale_check_requires_refresh",
+                "passed": true
+              },
+              {
+                "name": "hash_failure_leaves_installed_files_unchanged",
+                "passed": true
+              },
+              {
+                "name": "operator_download_validate_backup_and_install",
+                "passed": true
+              },
+              {
+                "name": "red_restart_banner_and_no_hot_reload",
+                "passed": true
+              },
+              {
+                "name": "one_click_rollback_restores_original",
+                "passed": true
+              },
+              {
+                "name": "no_asset_disables_install",
+                "passed": true
+              },
+              {
+                "name": "download_progress_and_cancel_layout",
+                "passed": true
+              }
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-legacy\\scripts\\addons\\bomberstudio_blender",
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "candidate_version": [
+              1,
+              2,
+              1
+            ],
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "source_restored": true,
+            "download_calls": 2,
+            "network": "in-memory HTTPS responses"
+          }
+        },
+        "passed": true,
+        "seconds": 3.13,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-legacy\\install.log"
+      },
+      {
+        "version": "4.5.5",
+        "mode": "Extension",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "passed": true,
+          "blender": "4.5.5 LTS",
+          "mode": "Extension",
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bl_ext.bomber_universal.bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-extension\\extension-repo\\bomberstudio_blender\\__init__.py",
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "isolated": true,
+          "preferences_saved": false,
+          "ascii_triangle_import": true,
+          "normal_uv": true,
+          "portable_default_path": true,
+          "local_update_and_rollback": true,
+          "disable_reenable": true,
+          "source_tests": [
+            {
+              "name": "bundled_provider_registered",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "updater_routes_to_parent",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "registration_lifecycle",
+              "passed": true,
+              "detail": "3 enable/disable cycles; no leaked handlers, RNA classes or vertex-map operators"
+            },
+            {
+              "name": "smd_mesh_rig_weights_import",
+              "passed": true,
+              "detail": "Triangle, UV, material, root bone, weights, three vertex-map create/remove cycles"
+            },
+            {
+              "name": "animation_import_existing_rig",
+              "passed": true,
+              "detail": "Animation appended without requiring a new mesh"
+            },
+            {
+              "name": "smd_vta_export",
+              "passed": true,
+              "detail": {
+                "smd": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-extension\\source-fixtures\\smd-out\\triangle.smd",
+                "vta": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-extension\\source-fixtures\\smd-out\\triangle.vta"
+              }
+            },
+            {
+              "name": "vta_shape_key_import",
+              "passed": true,
+              "detail": [
+                "Basis",
+                "smile"
+              ]
+            },
+            {
+              "name": "dmx_binary_roundtrip",
+              "passed": true,
+              "detail": "Binary DMX 5/model18: mesh, rig, weights, smile shape"
+            },
+            {
+              "name": "qc_qci_import",
+              "passed": true,
+              "detail": "QC + QCI + referenced SMD + idle animation; no external compiler invoked"
+            },
+            {
+              "name": "error_paths",
+              "passed": true,
+              "detail": "Missing file, missing output directory, malformed DMX; preferences restored"
+            },
+            {
+              "name": "partial_registration_rollback",
+              "passed": true,
+              "detail": "Partial register failure rolls back only owned classes"
+            }
+          ],
+          "update_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "default_repository",
+                "passed": true
+              },
+              {
+                "name": "full_url",
+                "passed": true
+              },
+              {
+                "name": "shorthand",
+                "passed": true
+              },
+              {
+                "name": "empty_saved_setting",
+                "passed": true
+              },
+              {
+                "name": "custom_repository",
+                "passed": true
+              },
+              {
+                "name": "new_release",
+                "passed": true
+              },
+              {
+                "name": "local_ahead",
+                "passed": true
+              },
+              {
+                "name": "unknown_version",
+                "passed": true
+              },
+              {
+                "name": "404_keeps_last_success_receipt",
+                "passed": true
+              },
+              {
+                "name": "respects_blender_offline_mode",
+                "passed": true
+              },
+              {
+                "name": "live_github_full_url_check",
+                "passed": true
+              }
+            ],
+            "live": true,
+            "live_record": {
+              "repository": "Hoshino486/BomberStudio_Blender",
+              "tag": "BomberStudio_Blender_1.1.1",
+              "current_version": [
+                1,
+                2,
+                0
+              ],
+              "remote_version": [
+                1,
+                1,
+                1
+              ],
+              "relation": "OLDER",
+              "status": "本地 1.2.0 高于已发布 1.1.1，无需降级",
+              "release_url": "https://github.com/Hoshino486/BomberStudio_Blender/releases/latest",
+              "asset": {
+                "id": 608065258,
+                "name": "BomberStudio_Blender_1.1.1.zip",
+                "url": "https://github.com/Hoshino486/BomberStudio_Blender/releases/download/BomberStudio_Blender_1.1.1/BomberStudio_Blender_1.1.1.zip",
+                "size": 209414,
+                "sha256": "57ea5843d38954fe0a92f3fab9d1f9e98d905b00c6c232b7b442cd06c67b8b72",
+                "checksum": null
+              },
+              "asset_error": "",
+              "checked": "2026-10-04 01:25:08",
+              "checked_epoch": 1791048308.0338778,
+              "repository_input": "https://github.com/Hoshino486/BomberStudio_Blender"
+            },
+            "module": "bl_ext.bomber_universal.bomberstudio_blender",
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-extension\\extension-repo\\bomberstudio_blender\\__init__.py",
+            "blender": "4.5.5 LTS"
+          },
+          "online_install_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "cancel_confirmation_before_worker_is_created",
+                "passed": true
+              },
+              {
+                "name": "idle_check_button",
+                "passed": true
+              },
+              {
+                "name": "new_version_enables_install_button",
+                "passed": true
+              },
+              {
+                "name": "manual_check_does_not_download",
+                "passed": true
+              },
+              {
+                "name": "changed_repository_invalidates_target",
+                "passed": true
+              },
+              {
+                "name": "stale_check_requires_refresh",
+                "passed": true
+              },
+              {
+                "name": "hash_failure_leaves_installed_files_unchanged",
+                "passed": true
+              },
+              {
+                "name": "operator_download_validate_backup_and_install",
+                "passed": true
+              },
+              {
+                "name": "red_restart_banner_and_no_hot_reload",
+                "passed": true
+              },
+              {
+                "name": "one_click_rollback_restores_original",
+                "passed": true
+              },
+              {
+                "name": "no_asset_disables_install",
+                "passed": true
+              },
+              {
+                "name": "download_progress_and_cancel_layout",
+                "passed": true
+              }
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-extension\\extension-repo\\bomberstudio_blender",
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "candidate_version": [
+              1,
+              2,
+              1
+            ],
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "source_restored": true,
+            "download_calls": 2,
+            "network": "in-memory HTTPS responses"
+          }
+        },
+        "passed": true,
+        "seconds": 4.251,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-4.5.5-extension\\install.log"
+      },
+      {
+        "version": "5.2.2",
+        "mode": "Extension",
+        "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+        "returncode": 0,
+        "result": {
+          "passed": true,
+          "blender": "5.2.2 LTS",
+          "mode": "Extension",
+          "addon_version": [
+            1,
+            2,
+            0
+          ],
+          "module": "bl_ext.bomber_universal.bomberstudio_blender",
+          "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-extension\\extension-repo\\bomberstudio_blender\\__init__.py",
+          "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+          "isolated": true,
+          "preferences_saved": false,
+          "ascii_triangle_import": true,
+          "normal_uv": true,
+          "portable_default_path": true,
+          "local_update_and_rollback": true,
+          "disable_reenable": true,
+          "source_tests": [
+            {
+              "name": "bundled_provider_registered",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "updater_routes_to_parent",
+              "passed": true,
+              "detail": null
+            },
+            {
+              "name": "registration_lifecycle",
+              "passed": true,
+              "detail": "3 enable/disable cycles; no leaked handlers, RNA classes or vertex-map operators"
+            },
+            {
+              "name": "smd_mesh_rig_weights_import",
+              "passed": true,
+              "detail": "Triangle, UV, material, root bone, weights, three vertex-map create/remove cycles"
+            },
+            {
+              "name": "animation_import_existing_rig",
+              "passed": true,
+              "detail": "Animation appended without requiring a new mesh"
+            },
+            {
+              "name": "smd_vta_export",
+              "passed": true,
+              "detail": {
+                "smd": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-extension\\source-fixtures\\smd-out\\triangle.smd",
+                "vta": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-extension\\source-fixtures\\smd-out\\triangle.vta"
+              }
+            },
+            {
+              "name": "vta_shape_key_import",
+              "passed": true,
+              "detail": [
+                "Basis",
+                "smile"
+              ]
+            },
+            {
+              "name": "dmx_binary_roundtrip",
+              "passed": true,
+              "detail": "Binary DMX 5/model18: mesh, rig, weights, smile shape"
+            },
+            {
+              "name": "qc_qci_import",
+              "passed": true,
+              "detail": "QC + QCI + referenced SMD + idle animation; no external compiler invoked"
+            },
+            {
+              "name": "error_paths",
+              "passed": true,
+              "detail": "Missing file, missing output directory, malformed DMX; preferences restored"
+            },
+            {
+              "name": "partial_registration_rollback",
+              "passed": true,
+              "detail": "Partial register failure rolls back only owned classes"
+            }
+          ],
+          "update_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "default_repository",
+                "passed": true
+              },
+              {
+                "name": "full_url",
+                "passed": true
+              },
+              {
+                "name": "shorthand",
+                "passed": true
+              },
+              {
+                "name": "empty_saved_setting",
+                "passed": true
+              },
+              {
+                "name": "custom_repository",
+                "passed": true
+              },
+              {
+                "name": "new_release",
+                "passed": true
+              },
+              {
+                "name": "local_ahead",
+                "passed": true
+              },
+              {
+                "name": "unknown_version",
+                "passed": true
+              },
+              {
+                "name": "404_keeps_last_success_receipt",
+                "passed": true
+              },
+              {
+                "name": "respects_blender_offline_mode",
+                "passed": true
+              }
+            ],
+            "live": false,
+            "live_record": null,
+            "module": "bl_ext.bomber_universal.bomberstudio_blender",
+            "module_path": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-extension\\extension-repo\\bomberstudio_blender\\__init__.py",
+            "blender": "5.2.2 LTS"
+          },
+          "online_install_tests": {
+            "passed": true,
+            "checks": [
+              {
+                "name": "cancel_confirmation_before_worker_is_created",
+                "passed": true
+              },
+              {
+                "name": "idle_check_button",
+                "passed": true
+              },
+              {
+                "name": "new_version_enables_install_button",
+                "passed": true
+              },
+              {
+                "name": "manual_check_does_not_download",
+                "passed": true
+              },
+              {
+                "name": "changed_repository_invalidates_target",
+                "passed": true
+              },
+              {
+                "name": "stale_check_requires_refresh",
+                "passed": true
+              },
+              {
+                "name": "hash_failure_leaves_installed_files_unchanged",
+                "passed": true
+              },
+              {
+                "name": "operator_download_validate_backup_and_install",
+                "passed": true
+              },
+              {
+                "name": "red_restart_banner_and_no_hot_reload",
+                "passed": true
+              },
+              {
+                "name": "one_click_rollback_restores_original",
+                "passed": true
+              },
+              {
+                "name": "no_asset_disables_install",
+                "passed": true
+              },
+              {
+                "name": "download_progress_and_cancel_layout",
+                "passed": true
+              }
+            ],
+            "installed_target": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-extension\\extension-repo\\bomberstudio_blender",
+            "archive": "<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip",
+            "candidate_version": [
+              1,
+              2,
+              1
+            ],
+            "original_version": [
+              1,
+              2,
+              0
+            ],
+            "source_restored": true,
+            "download_calls": 2,
+            "network": "in-memory HTTPS responses"
+          }
+        },
+        "passed": true,
+        "seconds": 3.131,
+        "log": "<WORKSPACE>\\临时文件夹\\universal-tests-1.2.0\\install-5.2.2-extension\\install.log"
+      }
+    ]
+  },
+  "gui": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "nonblocking_check_worker_and_main_thread_completion",
+        "passed": true
+      },
+      {
+        "name": "modal_cancel_keeps_installation",
+        "passed": true
+      },
+      {
+        "name": "modal_retry_installs_and_requests_restart",
+        "passed": true
+      },
+      {
+        "name": "fresh_blender_process_loads_new_version",
+        "passed": true
+      },
+      {
+        "name": "gui_rollback_restores_source",
+        "passed": true
+      },
+      {
+        "name": "main_thread_remains_responsive",
+        "passed": true
+      }
+    ],
+    "error": "",
+    "pulses": 45,
+    "worker_ids": [
+      11384,
+      33336,
+      39500
+    ],
+    "main_thread": 46396,
+    "profile": "<WORKSPACE>\\临时文件夹\\gui120-release",
+    "blender": "4.5.5 LTS",
+    "network": "mocked HTTPS response; real worker and modal event loop",
+    "returncode": 0,
+    "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140"
+  },
+  "cold_restart": {
+    "passed": true,
+    "expected": "1.2.1",
+    "actual": "1.2.1",
+    "module": "bl_ext.bomber_restart.bomberstudio_blender",
+    "module_path": "<WORKSPACE>\\临时文件夹\\gui120-release\\extension-repo\\bomberstudio_blender\\__init__.py",
+    "blender": "4.5.5 LTS"
+  },
+  "extension_validators": [
+    {
+      "version": "4.5.5",
+      "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+      "returncode": 0,
+      "passed": true,
+      "log": "<VERIFICATION_TEMP>\\validate-4.5.5\\validate.log",
+      "output": "Success parsing TOML in \"<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip\"\nBlender 4.5.5 LTS (hash 836beaaf597a built 2025-11-18 01:33:26)\n"
+    },
+    {
+      "version": "5.2.2",
+      "archive_sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+      "returncode": 0,
+      "passed": true,
+      "log": "<VERIFICATION_TEMP>\\validate-5.2.2\\validate.log",
+      "output": "Success parsing TOML in \"<WORKSPACE>\\BomberStudio_Blender_1.2.0_Universal.zip\"\nBlender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)\n"
+    }
+  ],
+  "functional_matrix": [
+    {
+      "version": "2.79b",
+      "returncode": 0,
+      "passed": true,
+      "result": {
+        "passed": 25,
+        "blender": "2.79 (sub 0)",
+        "tests": [
+          {
+            "status": "PASS",
+            "name": "register_unregister_reregister",
+            "seconds": 0.0033342838287353516
+          },
+          {
+            "status": "PASS",
+            "name": "all_panels_draw_no_missing_properties",
+            "seconds": 0.002160310745239258
+          },
+          {
+            "status": "PASS",
+            "name": "vertex_group_weight_merge_sort_fill",
+            "seconds": 0.0026941299438476562
+          },
+          {
+            "status": "PASS",
+            "name": "normal_uv_color_tangent_and_clear",
+            "seconds": 0.0005509853363037109
+          },
+          {
+            "status": "PASS",
+            "name": "split_preserves_shapes_weights_uv_and_backup",
+            "seconds": 0.0
+          },
+          {
+            "status": "PASS",
+            "name": "uv_island_split_sees_seam_on_connected_geometry",
+            "seconds": 0.0003249645233154297
+          },
+          {
+            "status": "PASS",
+            "name": "shape_modifier_preserves_key_id_driver_and_topology",
+            "seconds": 0.0003170967102050781
+          },
+          {
+            "status": "PASS",
+            "name": "visemes_numeric_and_duplicate_protection",
+            "seconds": 0.0
+          },
+          {
+            "status": "PASS",
+            "name": "bones_parent_scale_and_eyes",
+            "seconds": 0.0030927658081054688
+          },
+          {
+            "status": "PASS",
+            "name": "sidecar_source_contract_uv_scale_alpha",
+            "seconds": 0.02592754364013672
+          },
+          {
+            "status": "PASS",
+            "name": "pc2_hash_preflight_actual_frame_evaluation",
+            "seconds": 0.015964984893798828
+          },
+          {
+            "status": "PASS",
+            "name": "atlas_pbr_pixels_uv_shape_keys_originals",
+            "seconds": 0.020029067993164062
+          },
+          {
+            "status": "PASS",
+            "name": "atlas_tiling_crop_non_square_and_guard",
+            "seconds": 0.00990438461303711
+          },
+          {
+            "status": "PASS",
+            "name": "real_bomberstudio_fbx_binding_fixture_import",
+            "seconds": 0.05286860466003418
+          },
+          {
+            "status": "PASS",
+            "name": "real_bomberstudio_rigged_fbx_static_import_export_roundtrip",
+            "seconds": 3.8434159755706787
+          },
+          {
+            "status": "PASS",
+            "name": "shape_snapshots_keep_original_and_save_cleanly",
+            "seconds": 0.006017446517944336
+          },
+          {
+            "status": "PASS",
+            "name": "position_mapping_and_numeric_group_removal",
+            "seconds": 0.0
+          },
+          {
+            "status": "PASS",
+            "name": "shared_group_transitive_clustering",
+            "seconds": 0.0
+          },
+          {
+            "status": "PASS",
+            "name": "break_group_boundaries_keep_shape_keys",
+            "seconds": 0.0005238056182861328
+          },
+          {
+            "status": "PASS",
+            "name": "material_combine_avoids_different_mapping",
+            "seconds": 0.0019998550415039062
+          },
+          {
+            "status": "PASS",
+            "name": "armature_merge_attach_and_csv_roundtrip",
+            "seconds": 0.00801539421081543
+          },
+          {
+            "status": "PASS",
+            "name": "scoped_physics_removal_leaves_unselected_model",
+            "seconds": 0.0015130043029785156
+          },
+          {
+            "status": "PASS",
+            "name": "animation_export_import_world_vertex_samples",
+            "seconds": 0.033948659896850586
+          },
+          {
+            "status": "PASS",
+            "name": "update_zip_validate_install_restore_isolated_fixture",
+            "seconds": 0.06012463569641113
+          },
+          {
+            "status": "PASS",
+            "name": "invalid_selection_reports_cancel_without_scene_edits",
+            "seconds": 0.0020210742950439453
+          }
+        ],
+        "python": "3.5.3 (default, May 20 2017, 19:10:40) [MSC v.1800 64 bit (AMD64)]",
+        "failed": 0
+      },
+      "log": "<VERIFICATION_TEMP>\\functional-final\\2.79b\\process.log"
+    },
+    {
+      "version": "3.2.2",
+      "returncode": 0,
+      "passed": true,
+      "result": {
+        "blender": "3.2.2",
+        "python": "3.10.2 (main, Jan 27 2022, 08:34:43) [MSC v.1928 64 bit (AMD64)]",
+        "passed": 25,
+        "failed": 0,
+        "tests": [
+          {
+            "name": "register_unregister_reregister",
+            "status": "PASS",
+            "seconds": 0.0009996891021728516
+          },
+          {
+            "name": "all_panels_draw_no_missing_properties",
+            "status": "PASS",
+            "seconds": 0.0038900375366210938
+          },
+          {
+            "name": "vertex_group_weight_merge_sort_fill",
+            "status": "PASS",
+            "seconds": 0.003299713134765625
+          },
+          {
+            "name": "normal_uv_color_tangent_and_clear",
+            "status": "PASS",
+            "seconds": 0.0013065338134765625
+          },
+          {
+            "name": "split_preserves_shapes_weights_uv_and_backup",
+            "status": "PASS",
+            "seconds": 0.0010950565338134766
+          },
+          {
+            "name": "uv_island_split_sees_seam_on_connected_geometry",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "shape_modifier_preserves_key_id_driver_and_topology",
+            "status": "PASS",
+            "seconds": 0.0033409595489501953
+          },
+          {
+            "name": "visemes_numeric_and_duplicate_protection",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "bones_parent_scale_and_eyes",
+            "status": "PASS",
+            "seconds": 0.0052793025970458984
+          },
+          {
+            "name": "sidecar_source_contract_uv_scale_alpha",
+            "status": "PASS",
+            "seconds": 0.037070512771606445
+          },
+          {
+            "name": "pc2_hash_preflight_actual_frame_evaluation",
+            "status": "PASS",
+            "seconds": 0.024038314819335938
+          },
+          {
+            "name": "atlas_pbr_pixels_uv_shape_keys_originals",
+            "status": "PASS",
+            "seconds": 0.04328107833862305
+          },
+          {
+            "name": "atlas_tiling_crop_non_square_and_guard",
+            "status": "PASS",
+            "seconds": 0.02483820915222168
+          },
+          {
+            "name": "real_bomberstudio_fbx_binding_fixture_import",
+            "status": "PASS",
+            "seconds": 0.04892277717590332
+          },
+          {
+            "name": "real_bomberstudio_rigged_fbx_static_import_export_roundtrip",
+            "status": "PASS",
+            "seconds": 3.5401952266693115
+          },
+          {
+            "name": "shape_snapshots_keep_original_and_save_cleanly",
+            "status": "PASS",
+            "seconds": 0.011112451553344727
+          },
+          {
+            "name": "position_mapping_and_numeric_group_removal",
+            "status": "PASS",
+            "seconds": 0.002646923065185547
+          },
+          {
+            "name": "shared_group_transitive_clustering",
+            "status": "PASS",
+            "seconds": 0.0010104179382324219
+          },
+          {
+            "name": "break_group_boundaries_keep_shape_keys",
+            "status": "PASS",
+            "seconds": 0.001005411148071289
+          },
+          {
+            "name": "material_combine_avoids_different_mapping",
+            "status": "PASS",
+            "seconds": 0.004105567932128906
+          },
+          {
+            "name": "armature_merge_attach_and_csv_roundtrip",
+            "status": "PASS",
+            "seconds": 0.018219709396362305
+          },
+          {
+            "name": "scoped_physics_removal_leaves_unselected_model",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "animation_export_import_world_vertex_samples",
+            "status": "PASS",
+            "seconds": 0.03399038314819336
+          },
+          {
+            "name": "update_zip_validate_install_restore_isolated_fixture",
+            "status": "PASS",
+            "seconds": 0.08140397071838379
+          },
+          {
+            "name": "invalid_selection_reports_cancel_without_scene_edits",
+            "status": "PASS",
+            "seconds": 0.003428936004638672
+          }
+        ]
+      },
+      "log": "<VERIFICATION_TEMP>\\functional-final\\3.2.2\\process.log"
+    },
+    {
+      "version": "4.0.2",
+      "returncode": 0,
+      "passed": true,
+      "result": {
+        "blender": "4.0.2",
+        "python": "3.10.13 (main, Sep 20 2023, 07:33:17) [MSC v.1928 64 bit (AMD64)]",
+        "passed": 25,
+        "failed": 0,
+        "tests": [
+          {
+            "name": "register_unregister_reregister",
+            "status": "PASS",
+            "seconds": 0.00099945068359375
+          },
+          {
+            "name": "all_panels_draw_no_missing_properties",
+            "status": "PASS",
+            "seconds": 0.0020029544830322266
+          },
+          {
+            "name": "vertex_group_weight_merge_sort_fill",
+            "status": "PASS",
+            "seconds": 0.002737283706665039
+          },
+          {
+            "name": "normal_uv_color_tangent_and_clear",
+            "status": "PASS",
+            "seconds": 0.0009882450103759766
+          },
+          {
+            "name": "split_preserves_shapes_weights_uv_and_backup",
+            "status": "PASS",
+            "seconds": 0.0030794143676757812
+          },
+          {
+            "name": "uv_island_split_sees_seam_on_connected_geometry",
+            "status": "PASS",
+            "seconds": 0.0010173320770263672
+          },
+          {
+            "name": "shape_modifier_preserves_key_id_driver_and_topology",
+            "status": "PASS",
+            "seconds": 0.003992319107055664
+          },
+          {
+            "name": "visemes_numeric_and_duplicate_protection",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "bones_parent_scale_and_eyes",
+            "status": "PASS",
+            "seconds": 0.005137920379638672
+          },
+          {
+            "name": "sidecar_source_contract_uv_scale_alpha",
+            "status": "PASS",
+            "seconds": 0.03823971748352051
+          },
+          {
+            "name": "pc2_hash_preflight_actual_frame_evaluation",
+            "status": "PASS",
+            "seconds": 0.009963512420654297
+          },
+          {
+            "name": "atlas_pbr_pixels_uv_shape_keys_originals",
+            "status": "PASS",
+            "seconds": 0.030014514923095703
+          },
+          {
+            "name": "atlas_tiling_crop_non_square_and_guard",
+            "status": "PASS",
+            "seconds": 0.019602298736572266
+          },
+          {
+            "name": "real_bomberstudio_fbx_binding_fixture_import",
+            "status": "PASS",
+            "seconds": 0.03868865966796875
+          },
+          {
+            "name": "real_bomberstudio_rigged_fbx_static_import_export_roundtrip",
+            "status": "PASS",
+            "seconds": 1.8071074485778809
+          },
+          {
+            "name": "shape_snapshots_keep_original_and_save_cleanly",
+            "status": "PASS",
+            "seconds": 0.0040476322174072266
+          },
+          {
+            "name": "position_mapping_and_numeric_group_removal",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "shared_group_transitive_clustering",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "break_group_boundaries_keep_shape_keys",
+            "status": "PASS",
+            "seconds": 0.003503561019897461
+          },
+          {
+            "name": "material_combine_avoids_different_mapping",
+            "status": "PASS",
+            "seconds": 0.0033631324768066406
+          },
+          {
+            "name": "armature_merge_attach_and_csv_roundtrip",
+            "status": "PASS",
+            "seconds": 0.010871648788452148
+          },
+          {
+            "name": "scoped_physics_removal_leaves_unselected_model",
+            "status": "PASS",
+            "seconds": 0.0028960704803466797
+          },
+          {
+            "name": "animation_export_import_world_vertex_samples",
+            "status": "PASS",
+            "seconds": 0.032462120056152344
+          },
+          {
+            "name": "update_zip_validate_install_restore_isolated_fixture",
+            "status": "PASS",
+            "seconds": 0.07274174690246582
+          },
+          {
+            "name": "invalid_selection_reports_cancel_without_scene_edits",
+            "status": "PASS",
+            "seconds": 0.002858877182006836
+          }
+        ]
+      },
+      "log": "<VERIFICATION_TEMP>\\functional-final\\4.0.2\\process.log"
+    },
+    {
+      "version": "4.1.1",
+      "returncode": 0,
+      "passed": true,
+      "result": {
+        "blender": "4.1.1",
+        "python": "3.11.7 (main, Feb  5 2024, 18:45:06) [MSC v.1928 64 bit (AMD64)]",
+        "passed": 25,
+        "failed": 0,
+        "tests": [
+          {
+            "name": "register_unregister_reregister",
+            "status": "PASS",
+            "seconds": 0.004476785659790039
+          },
+          {
+            "name": "all_panels_draw_no_missing_properties",
+            "status": "PASS",
+            "seconds": 0.0014145374298095703
+          },
+          {
+            "name": "vertex_group_weight_merge_sort_fill",
+            "status": "PASS",
+            "seconds": 0.0005247592926025391
+          },
+          {
+            "name": "normal_uv_color_tangent_and_clear",
+            "status": "PASS",
+            "seconds": 0.0029664039611816406
+          },
+          {
+            "name": "split_preserves_shapes_weights_uv_and_backup",
+            "status": "PASS",
+            "seconds": 0.0025947093963623047
+          },
+          {
+            "name": "uv_island_split_sees_seam_on_connected_geometry",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "shape_modifier_preserves_key_id_driver_and_topology",
+            "status": "PASS",
+            "seconds": 0.0033571720123291016
+          },
+          {
+            "name": "visemes_numeric_and_duplicate_protection",
+            "status": "PASS",
+            "seconds": 0.0028793811798095703
+          },
+          {
+            "name": "bones_parent_scale_and_eyes",
+            "status": "PASS",
+            "seconds": 0.004006624221801758
+          },
+          {
+            "name": "sidecar_source_contract_uv_scale_alpha",
+            "status": "PASS",
+            "seconds": 0.0626521110534668
+          },
+          {
+            "name": "pc2_hash_preflight_actual_frame_evaluation",
+            "status": "PASS",
+            "seconds": 0.017143726348876953
+          },
+          {
+            "name": "atlas_pbr_pixels_uv_shape_keys_originals",
+            "status": "PASS",
+            "seconds": 0.04596281051635742
+          },
+          {
+            "name": "atlas_tiling_crop_non_square_and_guard",
+            "status": "PASS",
+            "seconds": 0.014852285385131836
+          },
+          {
+            "name": "real_bomberstudio_fbx_binding_fixture_import",
+            "status": "PASS",
+            "seconds": 0.058249473571777344
+          },
+          {
+            "name": "real_bomberstudio_rigged_fbx_static_import_export_roundtrip",
+            "status": "PASS",
+            "seconds": 1.6034822463989258
+          },
+          {
+            "name": "shape_snapshots_keep_original_and_save_cleanly",
+            "status": "PASS",
+            "seconds": 0.006648540496826172
+          },
+          {
+            "name": "position_mapping_and_numeric_group_removal",
+            "status": "PASS",
+            "seconds": 0.0011162757873535156
+          },
+          {
+            "name": "shared_group_transitive_clustering",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "break_group_boundaries_keep_shape_keys",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "material_combine_avoids_different_mapping",
+            "status": "PASS",
+            "seconds": 0.0032091140747070312
+          },
+          {
+            "name": "armature_merge_attach_and_csv_roundtrip",
+            "status": "PASS",
+            "seconds": 0.013354301452636719
+          },
+          {
+            "name": "scoped_physics_removal_leaves_unselected_model",
+            "status": "PASS",
+            "seconds": 0.0020401477813720703
+          },
+          {
+            "name": "animation_export_import_world_vertex_samples",
+            "status": "PASS",
+            "seconds": 0.031549692153930664
+          },
+          {
+            "name": "update_zip_validate_install_restore_isolated_fixture",
+            "status": "PASS",
+            "seconds": 0.08097386360168457
+          },
+          {
+            "name": "invalid_selection_reports_cancel_without_scene_edits",
+            "status": "PASS",
+            "seconds": 0.0
+          }
+        ]
+      },
+      "log": "<VERIFICATION_TEMP>\\functional-final\\4.1.1\\process.log"
+    },
+    {
+      "version": "4.5.5",
+      "returncode": 0,
+      "passed": true,
+      "result": {
+        "blender": "4.5.5 LTS",
+        "python": "3.11.11 (main, May 31 2025, 09:35:27) [MSC v.1929 64 bit (AMD64)]",
+        "passed": 25,
+        "failed": 0,
+        "tests": [
+          {
+            "name": "register_unregister_reregister",
+            "status": "PASS",
+            "seconds": 0.003039836883544922
+          },
+          {
+            "name": "all_panels_draw_no_missing_properties",
+            "status": "PASS",
+            "seconds": 0.0025970935821533203
+          },
+          {
+            "name": "vertex_group_weight_merge_sort_fill",
+            "status": "PASS",
+            "seconds": 0.0022323131561279297
+          },
+          {
+            "name": "normal_uv_color_tangent_and_clear",
+            "status": "PASS",
+            "seconds": 0.003346681594848633
+          },
+          {
+            "name": "split_preserves_shapes_weights_uv_and_backup",
+            "status": "PASS",
+            "seconds": 0.002200603485107422
+          },
+          {
+            "name": "uv_island_split_sees_seam_on_connected_geometry",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "shape_modifier_preserves_key_id_driver_and_topology",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "visemes_numeric_and_duplicate_protection",
+            "status": "PASS",
+            "seconds": 0.0016117095947265625
+          },
+          {
+            "name": "bones_parent_scale_and_eyes",
+            "status": "PASS",
+            "seconds": 0.0031566619873046875
+          },
+          {
+            "name": "sidecar_source_contract_uv_scale_alpha",
+            "status": "PASS",
+            "seconds": 0.04993581771850586
+          },
+          {
+            "name": "pc2_hash_preflight_actual_frame_evaluation",
+            "status": "PASS",
+            "seconds": 0.008046865463256836
+          },
+          {
+            "name": "atlas_pbr_pixels_uv_shape_keys_originals",
+            "status": "PASS",
+            "seconds": 0.0330510139465332
+          },
+          {
+            "name": "atlas_tiling_crop_non_square_and_guard",
+            "status": "PASS",
+            "seconds": 0.020806074142456055
+          },
+          {
+            "name": "real_bomberstudio_fbx_binding_fixture_import",
+            "status": "PASS",
+            "seconds": 0.04905843734741211
+          },
+          {
+            "name": "real_bomberstudio_rigged_fbx_static_import_export_roundtrip",
+            "status": "PASS",
+            "seconds": 1.5218489170074463
+          },
+          {
+            "name": "shape_snapshots_keep_original_and_save_cleanly",
+            "status": "PASS",
+            "seconds": 0.006482362747192383
+          },
+          {
+            "name": "position_mapping_and_numeric_group_removal",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "shared_group_transitive_clustering",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "break_group_boundaries_keep_shape_keys",
+            "status": "PASS",
+            "seconds": 0.0016994476318359375
+          },
+          {
+            "name": "material_combine_avoids_different_mapping",
+            "status": "PASS",
+            "seconds": 0.005393505096435547
+          },
+          {
+            "name": "armature_merge_attach_and_csv_roundtrip",
+            "status": "PASS",
+            "seconds": 0.014380216598510742
+          },
+          {
+            "name": "scoped_physics_removal_leaves_unselected_model",
+            "status": "PASS",
+            "seconds": 0.0
+          },
+          {
+            "name": "animation_export_import_world_vertex_samples",
+            "status": "PASS",
+            "seconds": 0.034468650817871094
+          },
+          {
+            "name": "update_zip_validate_install_restore_isolated_fixture",
+            "status": "PASS",
+            "seconds": 0.0642697811126709
+          },
+          {
+            "name": "invalid_selection_reports_cancel_without_scene_edits",
+            "status": "PASS",
+            "seconds": 0.0006189346313476562
+          }
+        ]
+      },
+      "log": "<VERIFICATION_TEMP>\\functional-final\\4.5.5\\process.log"
+    },
+    {
+      "version": "5.2.2",
+      "returncode": 0,
+      "passed": true,
+      "result": {
+        "blender": "5.2.2 LTS",
+        "python": "3.13.13 (main, May  8 2026, 12:37:03) [MSC v.1944 64 bit (AMD64)]",
+        "passed": 25,
+        "failed": 0,
+        "tests": [
+          {
+            "name": "register_unregister_reregister",
+            "status": "PASS",
+            "seconds": 0.0025031566619873047
+          },
+          {
+            "name": "all_panels_draw_no_missing_properties",
+            "status": "PASS",
+            "seconds": 0.002149820327758789
+          },
+          {
+            "name": "vertex_group_weight_merge_sort_fill",
+            "status": "PASS",
+            "seconds": 0.0017485618591308594
+          },
+          {
+            "name": "normal_uv_color_tangent_and_clear",
+            "status": "PASS",
+            "seconds": 0.0010361671447753906
+          },
+          {
+            "name": "split_preserves_shapes_weights_uv_and_backup",
+            "status": "PASS",
+            "seconds": 0.0019490718841552734
+          },
+          {
+            "name": "uv_island_split_sees_seam_on_connected_geometry",
+            "status": "PASS",
+            "seconds": 0.00049591064453125
+          },
+          {
+            "name": "shape_modifier_preserves_key_id_driver_and_topology",
+            "status": "PASS",
+            "seconds": 0.0014595985412597656
+          },
+          {
+            "name": "visemes_numeric_and_duplicate_protection",
+            "status": "PASS",
+            "seconds": 0.0005345344543457031
+          },
+          {
+            "name": "bones_parent_scale_and_eyes",
+            "status": "PASS",
+            "seconds": 0.0028939247131347656
+          },
+          {
+            "name": "sidecar_source_contract_uv_scale_alpha",
+            "status": "PASS",
+            "seconds": 0.08927702903747559
+          },
+          {
+            "name": "pc2_hash_preflight_actual_frame_evaluation",
+            "status": "PASS",
+            "seconds": 0.00890040397644043
+          },
+          {
+            "name": "atlas_pbr_pixels_uv_shape_keys_originals",
+            "status": "PASS",
+            "seconds": 0.04156184196472168
+          },
+          {
+            "name": "atlas_tiling_crop_non_square_and_guard",
+            "status": "PASS",
+            "seconds": 0.024142742156982422
+          },
+          {
+            "name": "real_bomberstudio_fbx_binding_fixture_import",
+            "status": "PASS",
+            "seconds": 0.05363607406616211
+          },
+          {
+            "name": "real_bomberstudio_rigged_fbx_static_import_export_roundtrip",
+            "status": "PASS",
+            "seconds": 1.3482000827789307
+          },
+          {
+            "name": "shape_snapshots_keep_original_and_save_cleanly",
+            "status": "PASS",
+            "seconds": 0.010116815567016602
+          },
+          {
+            "name": "position_mapping_and_numeric_group_removal",
+            "status": "PASS",
+            "seconds": 0.0006787776947021484
+          },
+          {
+            "name": "shared_group_transitive_clustering",
+            "status": "PASS",
+            "seconds": 0.0005402565002441406
+          },
+          {
+            "name": "break_group_boundaries_keep_shape_keys",
+            "status": "PASS",
+            "seconds": 0.0014579296112060547
+          },
+          {
+            "name": "material_combine_avoids_different_mapping",
+            "status": "PASS",
+            "seconds": 0.005517244338989258
+          },
+          {
+            "name": "armature_merge_attach_and_csv_roundtrip",
+            "status": "PASS",
+            "seconds": 0.010371923446655273
+          },
+          {
+            "name": "scoped_physics_removal_leaves_unselected_model",
+            "status": "PASS",
+            "seconds": 0.0008423328399658203
+          },
+          {
+            "name": "animation_export_import_world_vertex_samples",
+            "status": "PASS",
+            "seconds": 0.13087868690490723
+          },
+          {
+            "name": "update_zip_validate_install_restore_isolated_fixture",
+            "status": "PASS",
+            "seconds": 0.07098984718322754
+          },
+          {
+            "name": "invalid_selection_reports_cancel_without_scene_edits",
+            "status": "PASS",
+            "seconds": 0.00208282470703125
+          }
+        ]
+      },
+      "log": "<VERIFICATION_TEMP>\\functional-final\\5.2.2\\process.log"
+    }
+  ],
+  "live_download": {
+    "installed_user_addon_modified": false,
+    "date": "2026-10-04",
+    "checked": {
+      "repository": "Hoshino486/BomberStudio_Blender",
+      "tag": "BomberStudio_Blender_1.1.1",
+      "current_version": [
+        1,
+        2,
+        0
+      ],
+      "remote_version": [
+        1,
+        1,
+        1
+      ],
+      "relation": "OLDER",
+      "status": "本地 1.2.0 高于已发布 1.1.1，无需降级",
+      "release_url": "https://github.com/Hoshino486/BomberStudio_Blender/releases/latest",
+      "asset": {
+        "id": 608065258,
+        "name": "BomberStudio_Blender_1.1.1.zip",
+        "url": "https://github.com/Hoshino486/BomberStudio_Blender/releases/download/BomberStudio_Blender_1.1.1/BomberStudio_Blender_1.1.1.zip",
+        "size": 209414,
+        "sha256": "57ea5843d38954fe0a92f3fab9d1f9e98d905b00c6c232b7b442cd06c67b8b72",
+        "checksum": null
+      },
+      "asset_error": ""
+    },
+    "download": {
+      "path": "<VERIFICATION_TEMP>\\live\\update-downloads\\release-505a96ef32474c9a8f656511ed783cc5.zip",
+      "sha256": "57ea5843d38954fe0a92f3fab9d1f9e98d905b00c6c232b7b442cd06c67b8b72",
+      "bytes": 209414,
+      "asset_name": "BomberStudio_Blender_1.1.1.zip",
+      "tag": "BomberStudio_Blender_1.1.1",
+      "repository": "Hoshino486/BomberStudio_Blender",
+      "verified_by": "github_asset_digest"
+    },
+    "package": {
+      "version": [
+        1,
+        1,
+        1
+      ],
+      "name": "BomberStudio Blender Bridge"
+    },
+    "passed": true
+  },
+  "resolved_first_pass_failures": [
+    "Existing ASCII unit-test temp directory needed parents=True on a fresh checkout",
+    "Removed 2.79b and 5.2.2 runtimes were restored from Blender official archive",
+    "Extension permission description was 69 characters; shortened below 64, regression added, validators rerun"
+  ],
+  "limitations": [
+    "Not tested on every minor/patch release or other operating systems",
+    "Legacy Blender TLS and local proxy/certificates depend on the local environment",
+    "Filesystem rollback handles tested recoverable exceptions, not arbitrary power loss",
+    "No end-to-end install from a published 1.2.0/1.2.1 release, because neither was published by this task"
+  ],
+  "first_upgrade_from_published_111": {
+    "manual_upgrade": {
+      "passed": true,
+      "from_version": [
+        1,
+        1,
+        1
+      ],
+      "installed_version": [
+        1,
+        2,
+        0
+      ],
+      "backup_created": true,
+      "module_path": "<VERIFICATION_TEMP>\\migration-final\\repo\\bomberstudio_blender\\__init__.py",
+      "blender": "4.5.5 LTS"
+    },
+    "cold_start": {
+      "passed": true,
+      "expected": "1.2.0",
+      "actual": "1.2.0",
+      "module": "bl_ext.bomber_restart.bomberstudio_blender",
+      "module_path": "<VERIFICATION_TEMP>\\migration-final\\repo\\bomberstudio_blender\\__init__.py",
+      "blender": "4.5.5 LTS"
+    },
+    "passed": true
+  },
+  "reproducible_build": true
+}

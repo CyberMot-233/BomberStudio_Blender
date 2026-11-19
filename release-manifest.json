@@ -1,0 +1,19 @@
+{
+  "addon": "BomberStudio Blender Bridge",
+  "version": "1.2.0",
+  "date": "2026-10-04",
+  "packages": [
+    {
+      "file": "BomberStudio_Blender_1.2.0_Universal.zip",
+      "bytes": 244841,
+      "sha256": "df56e0ef04f7c4d7c9f961010bc0f8d3e8f5244dfa4c24af907cec84850de140",
+      "kind": "Universal",
+      "layout": "bomberstudio_blender/"
+    }
+  ],
+  "install_modes": {
+    "2.79-4.1": "Legacy Add-on",
+    "4.2+": "Native Extension"
+  },
+  "compatibility_note": "See docs/兼容验证.md for actual tested versions and platform."
+}
